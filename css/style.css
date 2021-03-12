@@ -10,16 +10,21 @@ body{
 }
 
 header {
-    
+    display: flex; 
+    justify-content:flex-end;
+}
+
+header .MdG-btn {
+    border-radius: 20px;
+
 }
 
 header nav {
-    display: flex;
-    justify-content: flex-end;
+    
 }
 
 main{
-    height: calc( 100vh - 50px );
+    height: calc( 100vh - 100px );
 }
 
 footer{
