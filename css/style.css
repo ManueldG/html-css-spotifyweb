@@ -24,7 +24,15 @@ header nav {
 }
 
 main{
-    height: calc( 100vh - 100px );
+    height: calc( 100vh - 48px );
+}
+
+main .box{
+    background-color: white;
+}
+
+main .watermark{
+    background-color: #090909b5;
 }
 
 footer{
