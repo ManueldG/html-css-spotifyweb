@@ -10,10 +10,11 @@ body{
 }
 
 header {
-    display: flex;
+    
 }
 
-header .MdG-btn {
+header nav {
+    display: flex;
     justify-content: flex-end;
 }
 
