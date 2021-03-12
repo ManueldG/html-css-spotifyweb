@@ -28,11 +28,19 @@ main{
 }
 
 main .box{
+    display:inline-block;
     background-color: white;
+
 }
 
 main .watermark{
-    background-color: #090909b5;
+    background-color: transparent;
+    width: 300px;
+}
+
+main .box:hover{
+    background-color: #85858557;
+    width: 300px;
 }
 
 footer{
