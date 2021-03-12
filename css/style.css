@@ -14,9 +14,14 @@ body{
     min-width: 550px;
 }
 
+main{
+    height: calc( 100vh - 50px );
+}
+
 footer{
     display:flex;
     justify-content: space-between;
+    background-color:red;
 }
 
 
