@@ -35,6 +35,11 @@ header aside .top {
     flex-grow: 1;
 }
 
+header aside .top img {
+    margin: 7px 10px;
+}
+
+
 header aside .middle {
     flex-grow: 1;
 }
@@ -43,7 +48,14 @@ header aside .bottom {
     
 }
 
-header aside .bottom img {
+
+header aside .bottom img.download{
+    display: block;
+    margin: 14px;
+    padding: 0px 1px;   
+}
+
+header aside .bottom img.profile {
     display: block;
     background-color:#888; 
     border-radius:50%;
@@ -94,49 +106,102 @@ main .watermark span.material-icons {
 
 /*FOOTER*/
 
+footer {
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: center;
+}
+
+
 footer nav{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     background-color: rgb(48, 48, 48);
     z-index: 1;
     position: relative;
     height: 80px;
+    width: 95%;
+}
+
+footer .box {
+    display: flex;
+    align-items: center;
+    width: 11%;
+    justify-content: center;
 }
 
 footer .account {
-    color: rgb(0, 255, 0);
+    display: flex;
+    align-items: center;
+    width: 65%;
+}
+
+
+footer .account .sx{    
+    width: 35%;
+}
+
+footer .account .cn{    
+    width:10px;
+}
+
+
+footer .account img{    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+footer .preferiti {
+    color: #5a5a5a;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-basis: 5%;
+    align-items: center;
+}
+
+
+footer .box {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+}
+
+footer .controlli{
+    width:40%;
+}
+
+footer .controlli .up {
+    display: flex;
+    justify-content: center;
+}
+
+footer .controlli .down {
     display: flex;
     align-items: center;
 }
 
-footer .account img.sx{
-    height: 80px;
-}
-
-
-footer .preferiti {
-    color: #5a5a5a;
-    height: 100%;    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly ;
-}
-
-footer .controlli {    
-    width: 136px;    
-}
-
-.controlli i.fas.fa-random {
+footer .controlli i.fas.fa-random {
     font-size: 24px;
 }
 
-  .barra {
+.avanzamento{
+    height:100%;
+    width: 20%;
+    background-color:white;
+    border-radius: 2px;
+}
+
+.barra {
     height: 2px;
     width: calc( 100% - 33px * 2 );
     background-color: #5a5a5a;
     border-radius: 2px;
-    display: inline-block;
+    display: flex;
 }
 
 
@@ -145,19 +210,22 @@ footer .controlli .timeF{
     display: inline-block;
 }
 
-  .avanzamento{
-    height:100%;
-    width: 20%;
-    background-color:white;
-    border-radius: 2px;
-}
-
+  
 footer .volume {
     color: white;
     width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+footer .volume .avanzamento {
+    width: 25%;
+    background-color: white;
+    border-radius: 2px;
 }
 
 footer .volume .barra {
     width: calc( 100% - 52px * 2 );
-    vertical-align: text-top;
+    display: flex;
+    align-items: center;
 }
