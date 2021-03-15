@@ -19,13 +19,39 @@ header .MdG-btn {
     border-radius: 20px;
 }
 
+/*aside*/
 header aside {
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 80px);
     width: 50px;
     position: absolute;
     left: 0;
-    background-color:rgb(71, 71, 71)
+    background-color:rgb(71, 71, 71);
+    overflow: hidden;
 }
+
+header aside .top {
+    flex-grow: 1;
+}
+
+header aside .middle {
+    flex-grow: 1;
+}
+
+header aside .bottom {
+    
+}
+
+header aside .bottom img {
+    display: block;
+    background-color:#888; 
+    border-radius:50%;
+    margin: 7px;
+    padding: 0px 1px;   
+}
+
+
 
 /*MAIN*/
 
