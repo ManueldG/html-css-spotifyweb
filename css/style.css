@@ -35,6 +35,11 @@ header aside .top {
     flex-grow: 1;
 }
 
+header aside .top img {
+    margin: 7px 10px;
+}
+
+
 header aside .middle {
     flex-grow: 1;
 }
@@ -43,7 +48,14 @@ header aside .bottom {
     
 }
 
-header aside .bottom img {
+
+header aside .bottom img.download{
+    display: block;
+    margin: 14px;
+    padding: 0px 1px;   
+}
+
+header aside .bottom img.profile {
     display: block;
     background-color:#888; 
     border-radius:50%;
@@ -107,10 +119,12 @@ footer .account {
     color: rgb(0, 255, 0);
     display: flex;
     align-items: center;
+    height:100%;
 }
 
 footer .account img.sx{
-    height: 80px;
+    height: 100%;
+    
 }
 
 
