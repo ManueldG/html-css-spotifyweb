@@ -16,6 +16,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
     
+    <!--Framework Reset di Meyer-->
+    <link rel="stylesheet" href="http://casaalmada.hostinggratis.it/doc/css/reset.css">
+    
     <!--Framework bool12-->
     <link rel="stylesheet" href="http://casaalmada.hostinggratis.it/doc/css/framework-12bool.css">
     
@@ -28,9 +31,9 @@
     m - 768px - 1199px
     l - 1200 in su-->
     <link rel="stylesheet" media="all (min-width: 601px)" href="css/sm.css">
-    <link rel="stylesheet" media="all and (min-width: 720px)" href="css/md.css">
-    <link rel="stylesheet" media="all and (min-width: 992px)" href="css/lg.css">
-    <link rel="stylesheet" media="all and (min-width: 1140px)" href="css/xl.css">
+    <link rel="stylesheet" media="all and (min-width: 768px)" href="css/md.css">
+    <link rel="stylesheet" media="all and (min-width: 1199px)" href="css/lg.css">
+    <link rel="stylesheet" media="all and (min-width: 1200px)" href="css/xl.css">
     
     <title>SpotifyWEB</title>
 </head>
@@ -38,9 +41,11 @@
 
     <header>
         <nav>
-            <div class="MdG-btn"><!--colore-->
-                effettua l'upgrade
-            </div>    
+            <div class="destra">
+                <div class="MdG-btn"><!--colore-->
+                    effettua l'upgrade
+                </div>    
+            </div>
         </nav>
         <aside>
 
@@ -48,24 +53,131 @@
     </header>
 
     <main>
-        <div class="MdG-text-red ">
+        <div class="MdG-text-white gallery">
 
-            <div class="box">
+            <div class="box">                
                 <div class="watermark">
+                    <span class="material-icons">
+                        play_circle_outline
+                    </span>
+                </div>
+            </div>
 
-                    afdsfsafd
+            <div class="box">                
+                <div class="watermark">
+                    <span class="material-icons">
+                        play_circle_outline
+                    </span>
+                </div>
+            </div>
 
+            <div class="box">                
+                <div class="watermark">
+                    <span class="material-icons">
+                        play_circle_outline
+                    </span>
+                </div>
+            </div>
+
+            <div class="box">                
+                <div class="watermark">
+                    <span class="material-icons">
+                        play_circle_outline
+                    </span>
+                </div>
+            </div>
+
+            <div class="box">                
+                <div class="watermark">
+                    <span class="material-icons">
+                        play_circle_outline
+                    </span>
+                </div>
+            </div>
+
+            <div class="box">                
+                <div class="watermark">
+                    <span class="material-icons">
+                        play_circle_outline
+                    </span>
                 </div>
             </div>
 
         </div>        
     </main>
     <footer>
-        <div class="account">account</div>
-        <div class="preferiti">preferiti</div>
-        <div class="controlli">controlli</div>
-        <div class="volume mdg-btn">volume</div>
+        <nav>
+            <div class="account">                
+                <div>
+                    <img class="sx" src="img/sinister.jpeg" alt="">
+                </div>
+                <div class="dx">
+                    <div class="dx-up">
+                        <h4>titolo</h4>
+                    </div>
+                    <div class="dx-middle">
+                        brano
+                    </div>
+                    <div class="dx-down">
+                        nome
+                    </div>
+                </div>                
+            </div>
+            <div class="preferiti">
 
+                <span class="material-icons-two-tone">
+                    favorite_border
+                </span>
+
+                <span class="material-icons-outlined">
+                    folder
+                </span>
+                
+            </div>
+            <div class="controlli">
+                <div class="up">
+                    <i class="fas fa-random"></i>
+                    <span class="material-icons-outlined">
+                        skip_previous
+                    </span>
+                    <span class="material-icons-outlined">
+                        play_circle
+                    </span>
+                    <span class="material-icons-outlined">
+                        skip_next
+                    </span>
+                    <span class="material-icons-outlined">
+                        replay
+                        </span>
+                </div>
+                <div class="down">
+                    <div class="timeI">0:25</div>
+                    <div class="barra">
+                        <div class="avanzamento">
+
+                        </div>
+                    </div>
+                    <div class="timeF">4:35</div>
+                </div>
+            </div>
+            <div class="volume ">
+                <span class="material-icons">
+                    list
+                    </span>
+                <span class="material-icons-outlined">
+                    desktop_windows
+                    </span>
+                    <span class="material-icons-round">
+                        volume_up
+                        </span>
+                <div class="barra">
+                    <div class="avanzamento">
+
+                    </div>
+                </div>
+
+            </div>
+        </nav>
     </footer>    
 </body>
 </html>

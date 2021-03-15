@@ -1,5 +1,5 @@
 
-/*reset lo fa 12bool*/
+/*reset lo fa reset.css di Eric A. Meyer*/
 
 body{
     font-size: 14px;
@@ -12,15 +12,11 @@ body{
 header {
     display: flex; 
     justify-content:flex-end;
+    height: 90px;
 }
 
 header .MdG-btn {
     border-radius: 20px;
-
-}
-
-header nav {
-    
 }
 
 header aside {
@@ -31,39 +27,110 @@ header aside {
     background-color:rgb(71, 71, 71)
 }
 
+/*MAIN*/
+
 main{
-    height: calc( 100vh - 48px );
+    height: calc( 100vh - 90px - 80px );
     padding-left: 50px;
 }
+main .gallery {
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
 
-main .box{
-    display:inline-block;
-    background-color: white;
-
+main .box {
+    margin-right: calc( 100vw - ( 100vh / 5px ));
+    background-image: url('../img/metal_lifting.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 main .watermark{
     background-color: transparent;
-    width: 215px;
+    color: transparent;
+    width: calc( ( 100vw - ( 6* 5px ) - 50px ) / 6  );
+    min-width: 200px;
     height: 215px;
 }
-
-main .box:hover{
-    background-color: #85858557;
-    
+main .watermark:hover{
+    color: white;
+    background-color:rgba(17, 17, 17, 0.664)
 }
 
-footer {
+main .watermark span.material-icons {
+    font-size: 130px;
+    margin: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*FOOTER*/
+
+footer nav{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    background-color: red;
+    background-color: rgb(48, 48, 48);
     z-index: 1;
     position: relative;
+    height: 80px;
 }
 
-footer .account{
-    color:rgb(0, 255, 0);
+footer .account {
+    color: rgb(0, 255, 0);
+    display: flex;
+    align-items: center;
+}
+
+footer .account img.sx{
+    height: 80px;
 }
 
 
+footer .preferiti {
+    color: #5a5a5a;
+    height: 100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+}
 
+footer .controlli {    
+    width: 136px;    
+}
+
+.controlli i.fas.fa-random {
+    font-size: 24px;
+}
+
+  .barra {
+    height: 2px;
+    width: calc( 100% - 33px * 2 );
+    background-color: #5a5a5a;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+
+footer .controlli .timeI,
+footer .controlli .timeF{
+    display: inline-block;
+}
+
+  .avanzamento{
+    height:100%;
+    width: 20%;
+    background-color:white;
+    border-radius: 2px;
+}
+
+footer .volume {
+    color: white;
+    width: 200px;
+}
+
+footer .volume .barra {
+    width: calc( 100% - 52px * 2 );
+    vertical-align: text-top;
+}
