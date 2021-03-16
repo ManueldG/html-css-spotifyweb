@@ -1,6 +1,7 @@
 
 header aside {
     width: 130px;
+    align-items: center;
 }
 
 header aside .top{
@@ -48,10 +49,12 @@ header aside .middle ul h3 {
     align-items: center;
 }
 
-header aside .bottom {
-    display: flex;
-    justify-content:center;
-    height: 30%;
+header aside .bottom {       
+    width: 50%;
+}
+
+header aside .bottom hr{       
+    
 }
 
 header aside .bottom .label {

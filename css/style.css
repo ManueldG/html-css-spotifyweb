@@ -31,7 +31,7 @@ nav{
 header aside {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between;    
     height: calc(100vh - 80px);
     width: 50px;
     position: absolute;
@@ -83,6 +83,7 @@ header aside .bottom img.profile {
 main{
     height: calc( 100vh - 90px - 80px );
     padding-left: 50px;
+    overflow-y: hidden;
 }
 
 main h3{
