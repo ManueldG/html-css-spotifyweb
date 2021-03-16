@@ -79,7 +79,7 @@ main .gallery {
 }
 
 main .box {
-    margin-right: calc(( 100vw - ( ( 100vw - ( 6 * 5px ) - 50px ) / 6  ) * 6 ) / 6 );
+    flex-basis: calc( 100% / 6 - 15px);
     background-image: url('../img/metal_lifting.jpg');
     background-repeat: no-repeat;
     background-position: center;
