@@ -47,9 +47,14 @@ header aside .top img {
     margin: 7px 10px;
 }
 
+header aside .top img.logoB,
+header aside .top .etichetta{
+    display: none;
+}
+
 
 header aside .middle {
-    flex-grow: 1;
+    display:none;
 }
 
 header aside .bottom {

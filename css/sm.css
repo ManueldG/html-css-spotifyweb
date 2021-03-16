@@ -1,0 +1,34 @@
+
+header aside {
+    width: 130px;
+}
+
+header aside .top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+header aside .top .ico {
+    display: flex;
+    align-items: center;
+    flex-basis: calc( 100% / 2);
+}
+
+header aside .top img.logoB {
+    width:100%;    
+}
+
+header aside .top img.logo {
+    display: none;
+}
+
+header aside .top img.logoB,
+header aside .top .etichetta{
+    display: flex;
+    
+}
+
+header aside .middle {
+    display: flex;
+}
