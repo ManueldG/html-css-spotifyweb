@@ -31,6 +31,7 @@ nav{
 header aside {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: calc(100vh - 80px);
     width: 50px;
     position: absolute;
@@ -58,7 +59,7 @@ header aside .middle {
 }
 
 header aside .bottom {
-    
+        
 }
 
 header aside .bottom img.download{
