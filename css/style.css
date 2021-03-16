@@ -6,7 +6,6 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: black;
     color: white;
-    min-width: 550px;
 }
 
 header {
@@ -17,6 +16,15 @@ header {
 
 header .MdG-btn {
     border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    border-color: white;
+}
+
+nav{
+    align-self: center;
 }
 
 /*aside*/
@@ -48,7 +56,6 @@ header aside .bottom {
     
 }
 
-
 header aside .bottom img.download{
     display: block;
     margin: 14px;
@@ -78,17 +85,29 @@ main h3{
     letter-spacing: 2px;
 }
 
+main .item{
+    height: 100px;
+}
+
 main .testo ul {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #7d7f84;
+    align-content: space-evenly;
+    height: 100%;
 }
 
-main .testo ul li{
+main .testo ul li {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;    
-    align-items: center;
+    justify-content: space-between;
+    align-items: center;    
+    flex-wrap: nowrap;
 }
 
 main .testo ul .underline {
