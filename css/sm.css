@@ -60,3 +60,9 @@ header aside .bottom hr{
 header aside .bottom .label {
     display:inline-block;
 }
+
+/*Main*/
+
+main{
+    padding-left: 135px;
+}
