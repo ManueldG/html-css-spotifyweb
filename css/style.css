@@ -38,6 +38,7 @@ header aside {
     left: 0;
     background-color:rgb(71, 71, 71);
     overflow: hidden;
+    padding-left: 5px;
 }
 
 header aside .top {
@@ -53,13 +54,12 @@ header aside .top .etichetta{
     display: none;
 }
 
-
 header aside .middle {
     display:none;
 }
 
-header aside .bottom {
-        
+header aside .bottom .label {
+    display: none;        
 }
 
 header aside .bottom img.download{

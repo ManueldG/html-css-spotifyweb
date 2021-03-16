@@ -36,3 +36,24 @@ header aside .top .etichetta{
 header aside .middle {
     display: flex;
 }
+
+header aside .middle ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header aside .middle ul h3 {
+    display: flex;
+    align-items: center;
+}
+
+header aside .bottom {
+    display: flex;
+    justify-content:center;
+    height: 30%;
+}
+
+header aside .bottom .label {
+    display:inline-block;
+}
