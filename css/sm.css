@@ -12,15 +12,19 @@ header aside .top{
 header aside .top .ico {
     display: flex;
     align-items: center;
-    flex-basis: calc( 100% / 2);
 }
 
 header aside .top img.logoB {
-    width:100%;    
+    width: 100px;
 }
 
 header aside .top img.logo {
     display: none;
+}
+
+header aside .top img {
+    margin: 10px 0;
+    height: 20px;
 }
 
 header aside .top img.logoB,
