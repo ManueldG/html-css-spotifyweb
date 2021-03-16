@@ -71,6 +71,36 @@ main{
     height: calc( 100vh - 90px - 80px );
     padding-left: 50px;
 }
+
+main h3{
+    font-size:16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+main .testo ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main .testo ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;    
+    align-items: center;
+}
+
+main .testo ul .underline {
+    height: 2px;
+    background-color: #adff2f00;
+    width: 60%;    
+}
+
+main .testo ul li:hover .underline {
+    background-color: #adff2f;
+}
+ 
 main .gallery {
     display: flex;
     justify-content:flex-start;
@@ -89,11 +119,12 @@ main .box {
 main .watermark{
     background-color: transparent;
     color: transparent;
-    width: calc( ( 100vw - ( 6* 5px ) - 50px ) / 6  );
+    flex-basis: calc( ( 100vw - ( 6* 5px ) - 50px ) / 6  );
     min-width: 200px;
     height: 215px;
 }
-main .watermark:hover{
+
+main .box:hover .watermark{
     color: white;
     background-color:rgba(17, 17, 17, 0.664)
 }
@@ -149,7 +180,7 @@ footer .account .cn{
 
 footer .account img{    
     height: 100%;
-    width: 100%;
+    width: 35px;
     object-fit: cover;
 }
 
