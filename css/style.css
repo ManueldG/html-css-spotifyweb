@@ -83,11 +83,13 @@ header aside .bottom hr{
     display: none;        
 }
 
+
 header aside .bottom img.download{
     display: block;
     margin: 14px;
     padding: 0px 1px;   
 }
+
 
 header aside .bottom img.profile {
     display: block;
@@ -252,11 +254,20 @@ footer .box {
 
 footer .controlli{
     width:40%;
+    color: white;
 }
 
 footer .controlli .up {
     display: flex;
     justify-content: center;
+}
+
+footer .controlli .up a {
+    color: #fff;
+}
+
+footer .controlli .up a:hover .hover{
+    font-size: 30px;
 }
 
 footer .controlli .down {
@@ -307,4 +318,15 @@ footer .volume .barra {
     width: calc( 100% - 52px * 2 );
     display: flex;
     align-items: center;
+}
+
+.barra:hover .avanzamento{    
+    background-color: #a7ff2c;    
+}
+.barra span.material-icons{    
+    display: none;   
+}
+
+.barra:hover span.material-icons{    
+    display: inline-block;   
 }
