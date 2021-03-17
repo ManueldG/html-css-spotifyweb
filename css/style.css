@@ -113,6 +113,7 @@ main h3{
     font-size:16px;
     font-weight: 700;
     letter-spacing: 2px;
+    padding: 10px 5px;
 }
 
 main .item{
@@ -159,13 +160,15 @@ main .gallery {
 }
 
 main .box {
-    flex-basis: calc( 100% / 6 - 15px);
+    flex-basis: calc( 100% / 2 - 15px);
     /*background-image: url('../img/metal_lifting.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;*/
     position: relative;
     object-fit: contain;
+    width:100%;
+    margin: 5px 5px;
 }
 
 main .watermark{
@@ -181,10 +184,20 @@ main .box:hover .watermark{
     background-color:rgba(17, 17, 17, 0.664)
 }
 
+main .gallery img {
+    width: inherit;
+    
+}
+
 main .watermark span.material-icons {
     font-size: 130px;
     margin: 50%;
     transform: translate(-50%, -50%);
+}
+
+main .gallery .titolo {
+    text-align: center;
+    margin: 5px auto;
 }
 
 /*FOOTER*/

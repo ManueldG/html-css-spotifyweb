@@ -1,0 +1,4 @@
+main .box {
+    flex-basis: calc( 100% / 6 - 15px);
+    
+}

@@ -1,0 +1,6 @@
+main .box {
+    flex-basis: calc( 100% / 4 - 15px);
+    position: relative;
+    object-fit: contain;
+    width: 100%;
+}
