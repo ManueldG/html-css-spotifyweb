@@ -49,16 +49,36 @@ header aside .middle ul h3 {
     align-items: center;
 }
 
-header aside .bottom {       
+header aside .bottom {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 12px;
 }
 
-header aside .bottom hr{       
-    
+header aside .bottom .box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header aside .bottom hr {
+    display: inline-block;
+    width: 110px;
+    background-color: #0e0e0e;
+    margin: 5px 0;
+}
+
+header aside .bottom img {
+    width: 100%;
 }
 
 header aside .bottom .label {
-    display:inline-block;
+    display: inline-block;
+    width: max-content;
 }
 
 /*Main*/

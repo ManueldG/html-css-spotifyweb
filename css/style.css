@@ -58,7 +58,14 @@ header aside .middle {
     display:none;
 }
 
-header aside .bottom .label {
+elemento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header aside .bottom .label,
+header aside .bottom hr{
     display: none;        
 }
 
