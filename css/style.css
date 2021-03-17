@@ -27,6 +27,11 @@ a:hover{
     padding:6px;
 }
 
+.circle{
+    border-radius:50%;
+    overflow: hidden;
+}
+
 header .MdG-btn {
     border-radius: 20px;
     font-size: 12px;
