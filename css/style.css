@@ -106,7 +106,7 @@ header aside .bottom img.profile {
 main{
     height: calc( 100vh - 90px - 80px );
     padding-left: 50px;
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 main h3{
@@ -160,18 +160,20 @@ main .gallery {
 
 main .box {
     flex-basis: calc( 100% / 6 - 15px);
-    background-image: url('../img/metal_lifting.jpg');
+    /*background-image: url('../img/metal_lifting.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: contain;*/
+    position: relative;
+    object-fit: contain;
 }
 
 main .watermark{
+    position: absolute;
+    min-width: 100%;
+    height: 100%;
     background-color: transparent;
     color: transparent;
-    flex-basis: calc( ( 100vw - ( 6* 5px ) - 50px ) / 6  );
-    min-width: 200px;
-    height: 215px;
 }
 
 main .box:hover .watermark{
@@ -189,8 +191,7 @@ main .watermark span.material-icons {
 
 footer {
     background-color: rgb(48, 48, 48);
-    display: flex;
-    justify-content: center;
+    
 }
 
 
@@ -225,6 +226,11 @@ footer .account .sx{
 
 footer .account .cn{    
     width:10px;
+}
+
+footer .account .dx .dx-middle,
+footer .account .dx .dx-down{
+    display: inline-block;
 }
 
 
@@ -292,6 +298,7 @@ footer .controlli i.fas.fa-random {
     background-color: #5a5a5a;
     border-radius: 2px;
     display: flex;
+    align-items: center;
 }
 
 

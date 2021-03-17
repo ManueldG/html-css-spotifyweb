@@ -93,3 +93,13 @@ header aside .bottom .label {
 main{
     padding-left: 135px;
 }
+
+/*footer*/
+
+.dx {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
