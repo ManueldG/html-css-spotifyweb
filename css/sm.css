@@ -8,11 +8,18 @@ header aside .top{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin: 0;
+    width: inherit;
 }
 
-header aside .top .ico {
+header aside .top .ico{
     display: flex;
     align-items: center;
+    margin: 0 auto;
+}
+
+header aside .bordo {
+    padding: 0 25px;
 }
 
 header aside .top img.logoB {
